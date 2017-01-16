@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{E88F4045-0D40-2949-C0C5-D89EF277DB5D}</ProjectGuid>
+    <ProjectGuid>{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -66,9 +66,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="NotPillbox.CSharp.Plugins.csproj">
-      <Project>{07518B39-3EDF-BD9B-19E4-50BAAC48BE54}</Project>
-      <Name>NotPillbox.CSharp.Plugins</Name>
+    <ProjectReference Include="capsulewarfare.CSharp.Plugins.csproj">
+      <Project>{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}</Project>
+      <Name>capsulewarfare.CSharp.Plugins</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

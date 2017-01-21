@@ -6,6 +6,7 @@ public class MenuManager : MonoBehaviour {
     public string currentFrame;
     void Start() {
         currentFrame = "Main";
+        GameObject.Find(currentFrame).GetComponent<ButtonController>().buttonState = 1;
     }
     public void GoToFrame(string frame) {
         GetComponent<AudioSource>().Play();

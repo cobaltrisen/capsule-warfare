@@ -1,11 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capsulewarfare.CSharp.Plugins", "capsulewarfare.CSharp.Plugins.csproj", "{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capsulewarfare.CSharp", "capsulewarfare.CSharp.csproj", "{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capsulewarfare.CSharp.Editor", "capsulewarfare.CSharp.Editor.csproj", "{C1AEB165-CA07-D48A-A35F-B9D48CD98BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DF0FB64-1AB3-9C25-8EDB-CD2A26A8FBAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB02AF13-4962-0B0D-2F04-4E7A8627A99E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1AEB165-CA07-D48A-A35F-B9D48CD98BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1AEB165-CA07-D48A-A35F-B9D48CD98BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1AEB165-CA07-D48A-A35F-B9D48CD98BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1AEB165-CA07-D48A-A35F-B9D48CD98BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

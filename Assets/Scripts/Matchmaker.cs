@@ -32,11 +32,13 @@ public class Matchmaker : MonoBehaviour {
         Debug.Log("list");
         print(matches.Count+" matches found");
         foreach (MatchInfoSnapshot mis in matches) {
-            GameObject template = (GameObject)Instantiate(matchTemplate);
-            template.GetComponent<ServerInfo>().match = mis;
-            template.transform.SetParent(GameObject.Find("ServerList").transform, false);
-            template.name = mis.name;
-            template.SetActive(true);
+            if (mis.currentSize != mis.maxSize) {
+                GameObject template = (GameObject)Instantiate(matchTemplate);
+                template.GetComponent<ServerInfo>().match = mis;
+                template.transform.SetParent(GameObject.Find("ServerList").transform, false);
+                template.name = mis.name;
+                template.SetActive(true);
+            }
         }
     }
     public void JoinMatch (MatchInfoSnapshot mis){
